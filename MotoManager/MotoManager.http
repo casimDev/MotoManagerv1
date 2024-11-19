@@ -1,0 +1,6 @@
+@MotoManager_HostAddress = http://localhost:5236
+
+GET {{MotoManager_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
