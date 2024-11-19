@@ -1,0 +1,18 @@
+services:
+  motomanager:
+    image: ${DOCKER_REGISTRY-}motomanager
+    build:
+      context: .
+      dockerfile: MotoManager/Dockerfile
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123oliveira4
+      POSTGRES_DB: motoDb
+    ports:
+      - "5432:5432" # Porta ajustada para evitar conflito
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+volumes:
+  postgres_data: 

@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MotoManager", "MotoManager\MotoManager.csproj", "{BF414AEF-B1DB-453C-87A1-D6166819E5A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotoManager", "MotoManager\MotoManager.csproj", "{BF414AEF-B1DB-453C-87A1-D6166819E5A7}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8AAAD06F-D558-477F-B52D-FA08FF65779D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MotoManager.Infraestructure", "MotoManager.Infraestructure\MotoManager.Infraestructure.csproj", "{473577A4-5785-4FA1-BAB5-A36FA925AEF5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotoManager.Infraestructure", "MotoManager.Infraestructure\MotoManager.Infraestructure.csproj", "{473577A4-5785-4FA1-BAB5-A36FA925AEF5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MotoManager.Domain", "MotoManager.Domain\MotoManager.Domain.csproj", "{8478D057-438C-422D-B8D6-C99F5E679BFB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotoManager.Domain", "MotoManager.Domain\MotoManager.Domain.csproj", "{8478D057-438C-422D-B8D6-C99F5E679BFB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MotoManager.Application", "MotoManager.Application\MotoManager.Application.csproj", "{ADD9B9CD-A596-4487-B69D-CADC51BE3889}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotoManager.Application", "MotoManager.Application\MotoManager.Application.csproj", "{ADD9B9CD-A596-4487-B69D-CADC51BE3889}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
